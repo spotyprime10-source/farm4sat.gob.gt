@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle de Tarjeta de Circulación</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            color: #000;
+            background-color: #fff;
+            margin: 0;
+            padding: 10px;
+        }
+        .container {
+            width: 620px;
+            margin: 0 auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #777;
+            padding: 6px 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+        .header-bg {
+            background-color: #dbe4f0;
+            text-align: center;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 5px;
+        }
+        .logo-container {
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: 8px;
+        }
+        .logo-container h2 {
+            font-size: 14px;
+            margin: 0;
+            font-weight: normal;
+        }
+        .footer {
+            text-align: center;
+            font-size: 11px;
+            color: #777;
+            margin-top: 15px;
+        }
+        .footer a {
+            color: #0000ee;
+            text-decoration: underline;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Encabezado -->
+    <div class="logo-container">
+        <h2>DETALLE DE LA TARJETA DE CIRCULACION</h2>
+    </div>
+
+    <!-- Tabla Principal -->
+    <table>
+        <!-- Datos del Operador -->
+        <tr>
+            <td colspan="3" class="header-bg">DATOS DEL OPERADOR</td>
+        </tr>
+        <tr>
+            <td width="33%">Usuario</td>
+            <td colspan="2" style="text-align: center;">GABRIEL</td>
+        </tr>
+
+        <!-- Datos del Propietario -->
+        <tr>
+            <td colspan="3" class="header-bg">DATOS DEL PROPIETARIO</td>
+        </tr>
+        <tr>
+            <td>Nombre</td>
+            <td colspan="2" style="text-align: center;">CEBALLOS AGUILAR, ESTELA</td>
+        </tr>
+        <tr>
+            <td>NIT/CUI</td>
+            <td colspan="2" style="text-align: center;">61604917</td>
+        </tr>
+
+        <!-- Detalle del Vehículo -->
+        <tr>
+            <td colspan="3" class="header-bg">DETALLE DEL VEHÍCULO</td>
+        </tr>
+        <tr>
+            <td width="33%">VIN:<br>LC6PAGA19N0019662</td>
+            <td width="33%">Tipo:<br>MOTO</td>
+            <td width="34%">Marca: SUZUKI</td>
+        </tr>
+        <tr>
+            <td>Código Único<br>Identificador:<br>2023-92878-3</td>
+            <td>Uso:<br>MOTOCICLETA</td>
+            <td>Placa: 597JZG</td>
+        </tr>
+        <tr>
+            <td>Motor:<br>1E50FMG-G2G74990-</td>
+            <td>Modelo:<br>2022</td>
+            <td>LINEA: AX100</td>
+        </tr>
+        <tr>
+            <td>Chasis:<br>LC6PAGA19N0019662</td>
+            <td>Puertas: 0</td>
+            <td>Color: AZUL NEGRO<br>CROMO Y<br>CALCOMANIA<br>MULTICOLOR</td>
+        </tr>
+        <tr>
+            <td colspan="3">Estado: ACTIVO</td>
+        </tr>
+
+        <!-- Confirmación del Traspaso -->
+        <tr>
+            <td colspan="3" class="header-bg">CONFIRMACIÓN DEL TRASPASO</td>
+        </tr>
+        <tr>
+            <td width="40%">Fecha de ultimo<br>traspaso:</td>
+            <td colspan="2">14/03/2022</td>
+        </tr>
+    </table>
+
+    <!-- Pie de página -->
+    <div class="footer">
+        Verificable en <a href="#">Portal SAT</a><br>
+        &copy; SAT 2023. Todos los derechos reservados
+    </div>
+</div>
+
+</body>
+</html>
